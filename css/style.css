@@ -1,0 +1,73 @@
+:root{
+    --project-light:#e7f2fc;
+    --project-blue:#1f86dc;
+}
+.bg-light{
+    background: var(--project-light) !important;
+}
+
+
+.h_100{
+    height: 100vh;
+}
+
+.card_width{
+    margin-left: 80px;
+   max-width: 418px;
+}
+ .text_blue{
+    color: var(--project-blue) !important;
+ }
+ .fw_600{
+     font-weight: 600;
+ }
+ #sign-up a{
+     text-decoration: none !important ;
+ }
+ #sign-up a:hover{
+     text-decoration: underline !important;
+     color: blue !important;
+ }
+
+ @media screen and (max-width:768px){
+     .card_width{
+         max-width:100%;
+         margin-left:0px;
+     }
+    .order1{
+         order:2 !important;
+         height:auto !important;
+     }
+     .order2{
+         order: 3 !important;
+         
+     }
+ }
+ #card_width{
+     max-width: 450px;
+     margin-left:60px ;
+ }
+ #login a{
+     text-decoration: none !important;
+ }
+ #login a:hover{
+     text-decoration: underline !important;
+ }
+ #login .login-img{
+     transform: scaleX(-1);
+ }
+@media screen and(max-width:768px) {
+    #card_width{
+        max-width:100%;
+        margin-left:0px ;
+    }
+    .order1{
+        order: 3;
+        height: auto !important;
+        
+    }
+    .order2{
+        order: 2;
+    }
+}
+
